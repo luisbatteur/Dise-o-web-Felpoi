@@ -1,0 +1,49 @@
+
+.section-primero h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.header-container {
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.header {
+    height: 130px;
+}
+
+
+@media all and (max-width: 639px) {
+    .section-primero img{
+        display: none;
+    }
+    .section-primero {
+        height: 230px;
+    }
+    .section-primero h1{
+        text-align: center;
+    
+    }
+}
+
+@media all and (max-width: 425px) {
+    .section-primero {
+        align-items: flex-start;
+    }
+
+    .button2 {
+        width: 100px;
+        font-size: 10px;
+    }
+    .button1 {
+        width: 100px;
+        font-size: 10px;
+    }
+    .button-container {
+        width: 200px;
+    }
+
+}
